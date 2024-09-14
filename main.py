@@ -6,5 +6,8 @@ def fib(n):
     else:
         return fib(n-1) + fib(n-2)
 
-x = input("Enter the Nth number in the fib sequence you would like to calculate: ")
-print(fib(int(x)))
+while True:
+    x = input("Enter the Nth number in the fib sequence you would like to calculate: ")
+    if x == "quit":
+        break
+    print(fib(int(x)))

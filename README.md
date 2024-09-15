@@ -1,8 +1,12 @@
 # Description:
 
-This application is a basic tool to calculate the Nth number in the Fibonacci sequence.
+This application is a basic tool to calculate the Nth number in the Fibonacci sequence, or print a list of the sequence.
 
 # Changelog:
+
+#### v 2.0.1
+
+1. Updated description in README and Github.
 
 ## v2.0
 

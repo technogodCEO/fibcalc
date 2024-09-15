@@ -8,7 +8,7 @@ def fib(n):
 
 def fiblist(n):
     lst = []
-    for i in range(n-1)
+    for i in range(n-1):
         curr = fib(i)
         lst.append(curr)
     return lst

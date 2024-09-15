@@ -13,6 +13,13 @@ def fiblist(n):
         lst.append(curr)
     return lst
 
+def isprime(n):
+    for i in range(2, (n//2)+1):
+        if n%i == 0:
+            return False
+    return True
+
+print(isprime(5))
 while True:
     x = input("Would you like a list or just one number: enter lst, num, or x to quit: ")
     n = input("Enter the Nth number in the fib sequence you would like to calculate to or up to: ")
@@ -22,3 +29,4 @@ while True:
         print(fib(int(x)))
     elif x == "quit":
         break
+

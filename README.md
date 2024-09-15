@@ -4,6 +4,10 @@ This application is a basic tool to calculate the Nth number in the Fibonacci se
 
 # Changelog:
 
+### v3.0 Alpha 1
+
+1. Added prime checking fucntion (not usable yet in early testing phase)
+
 #### v2.0.2
 
 1. Important big fix with list function.

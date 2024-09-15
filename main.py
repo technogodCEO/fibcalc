@@ -6,8 +6,19 @@ def fib(n):
     else:
         return fib(n-1) + fib(n-2)
 
+def fiblist(n):
+    lst = []
+    for i in range(n-1)
+        curr = fib(i)
+        lst.append(curr)
+    return lst
+
 while True:
-    x = input("Enter the Nth number in the fib sequence you would like to calculate: ")
-    if x == "quit":
+    x = input("Would you like a list or just one number: enter lst, num, or x to quit: ")
+    n = input("Enter the Nth number in the fib sequence you would like to calculate to or up to: ")
+    if x == "lst":
+        print(fiblist(int(n)))
+    elif x == "num":
+        print(fib(int(x)))
+    elif x == "quit":
         break
-    print(fib(int(x)))

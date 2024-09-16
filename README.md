@@ -8,7 +8,11 @@ This application is a basic tool to calculate the Nth number in the Fibonacci se
 
 1. Added prime checking fucntion (not usable yet in early testing phase)
 
-#### v.2.3
+#### v0.2.4 
+
+1. Fixed errors during refactor. 
+
+#### v0.2.3
 
 1. Refactored version names. 
 
@@ -30,7 +34,7 @@ This application is a basic tool to calculate the Nth number in the Fibonacci se
 
 1. Updated README for v1.1
 
-### v0.1
+## v0.1
 
 1. Added process to a loop for repeated use
 

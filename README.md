@@ -1,12 +1,16 @@
 # Description:
 
-This application is a basic tool to calculate the Nth number in the Fibonacci sequence, or print a list of the sequence.
+This application is a basic tool to calculate the Nth number in the Fibonacci sequence or print a list of the sequence.
 
 # Changelog:
 
 ### v0.3 Alpha 1
 
-1. Added prime checking fucntion (not usable yet in early testing phase)
+1. Added prime checking function (not usable yet in early testing phase)
+
+##### v0.2.4.1
+
+1. Fixed spelling errors in README. 
 
 #### v0.2.4
 
@@ -14,7 +18,7 @@ This application is a basic tool to calculate the Nth number in the Fibonacci se
 
 ##### v0.2.3.3
 
-1. Fixed another formating error in README. 
+1. Fixed another formatting error in README. 
 
 ##### v0.2.3.2
 
@@ -22,7 +26,7 @@ This application is a basic tool to calculate the Nth number in the Fibonacci se
 
 ##### v0.2.3.1 
 
-1. Fixed errors during refactor. 
+1. Fixed errors during refactoring. 
 
 #### v0.2.3
 
@@ -39,7 +43,7 @@ This application is a basic tool to calculate the Nth number in the Fibonacci se
 
 ## v0.2
 
-1. Added functionality to print out a list of all the numbers in the fibonacci sequence up to a number.
+1. Added functionality to print out a list of all the numbers in the Fibonacci sequence up to a number.
 2. Refactored grammar and structure in README.
 
 #### v0.1.1 

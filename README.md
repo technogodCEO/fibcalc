@@ -8,6 +8,10 @@ This application is a basic tool to calculate the Nth number in the Fibonacci se
 
 1. Added prime checking fucntion (not usable yet in early testing phase)
 
+#### v0.2.4
+
+1. Fixed error in code where entering a number would result in ValueError.
+
 ##### v0.2.3.3
 
 1. Fixed another formating error in README. 

@@ -26,7 +26,7 @@ while True:
     if x == "lst":
         print(fiblist(int(n)))
     elif x == "num":
-        print(fib(int(x)))
+        print(fib(int(n)))
     elif x == "quit":
         break
 

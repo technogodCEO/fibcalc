@@ -4,6 +4,10 @@ This application is a basic tool to calculate the Nth number in the Fibonacci se
 
 # Changelog:
 
+## v0.3
+
+There were no bugs I could detect, so I am pushing to release. If you find any, please report them.
+
 ### v0.3 Beta 1
 
 HUGE UPDATE

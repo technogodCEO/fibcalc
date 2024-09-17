@@ -4,6 +4,11 @@ This application is a basic tool to calculate the Nth number in the Fibonacci se
 
 # Changelog:
 
+# note:
+there are so many bugs and I don't know what is going on so I am going to end this project, and maybe create a new one that does the same thing but with better convensions so we don't have this problem again. I have turned this into a legacy project :(
+
+If you have any ideas on how to fix this code please let me know
+
 ### v0.3.2 
 
 1. Fixed error with imputing into functions with converting boolean to integer by reordering code

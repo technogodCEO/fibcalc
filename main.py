@@ -1,6 +1,4 @@
 #imports a series of keyboard functions that allow various code to run
-from codecs import xmlcharrefreplace_errors
-
 import keyboard
 
 

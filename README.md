@@ -4,11 +4,16 @@ This application is a basic tool to calculate the Nth number in the Fibonacci se
 
 # Changelog:
 
+#### v0.3.1.1
+
+1. Got rid of a strange import.
+2. Fixed grammar in README.
+
 ### v0.3.1
 
-1. Formatting changes in README
+1. Formatting changes in README.
 2. A bug fix in which lst function will only print out primes.
-3. A bux fix in which inflist function will not print
+3. A bux fix in which infinite list function will not print.
 
 ## v0.3
 

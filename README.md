@@ -4,6 +4,12 @@ This application is a basic tool to calculate the Nth number in the Fibonacci se
 
 # Changelog:
 
+### v0.3.1
+
+1. Formatting changes in README
+2. A bug fix in which lst function will only print out primes.
+3. A bux fix in which inflist function will not print
+
 ## v0.3
 
 There were no bugs I could detect, so I am pushing to release. If you find any, please report them.
@@ -23,27 +29,27 @@ Betas are fully functional, but keep in mind there will likely be bugs, if you f
 
 1. Added prime checking function (not usable yet in early testing phase)
 
-#### v0.2.4
+### v0.2.4
 
 1. Fixed error in code where entering a number would result in ValueError.
 
-##### v0.2.3.3
+#### v0.2.3.3
 
 1. Fixed another formating error in README. 
 
-##### v0.2.3.2
+#### v0.2.3.2
 
 1. There was another error, I fixed it 
 
-##### v0.2.3.1 
+#### v0.2.3.1 
 
 1. Fixed errors during refactor. 
 
-#### v0.2.3
+### v0.2.3
 
 1. Refactored version names. 
 
-#### v0.2.2
+### v0.2.2
 
 1. Important big fix with list function.
 2. grammatical and spelling fixes in README.

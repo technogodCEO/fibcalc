@@ -1,4 +1,6 @@
 #imports a series of keyboard functions that allow various code to run
+from codecs import xmlcharrefreplace_errors
+
 import keyboard
 
 
@@ -25,9 +27,10 @@ def fib(n,prime):
 def fiblist(n,prime):
     lst = []
     for i in range(n-1):
-        curr = fib(i)
-        if isprime(curr) == True:
-            lst.append(curr)
+        curr = fib(i, prime)
+        if not curr:
+            continue
+        lst.append(curr)
     return lst
 
 #This function prints and infinite sequence of the fib sequence unless x is pressed
@@ -40,7 +43,7 @@ def inflist(prime):
             break
         if not x:
             continue
-
+        print(x)
 
 # can check if a number is prime
 def isprime(n):

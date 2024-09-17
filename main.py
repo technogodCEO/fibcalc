@@ -1,95 +1,25 @@
-#imports a series of keyboard functions that allow various code to run
-import keyboard
 
-
-# This function allows for recursion of the next function
-def fibprimeless(n):
-
-    print(n)
-    if n == 1 or n == 2:
-        var = 1
+def fib(n):
+    if n == 1:
+        return 1
+    elif n == 2:
+        return 1
     else:
-        var = fibprimeless(n - 1) + fibprimeless(n - 2)
+        return fib(n-1) + fib(n-2)
 
-    print(str(var) + "de")
-    return var
-
-def fib(n,prime):
-
-    if n == 1 or n == 2:
-        var = 1
-    else:
-        var = fibprimeless(n - 1) + fibprimeless(n - 2)
-
-    print(str(var) + "te")
-
-    if prime == True:
-        if isprime(var) == True:
-            return var
-        else:
-            return False
-    else:
-        return var
-
-
-
-#This function prints a list of all the numbers of the fibonacci sequence up to a certain number
-def fiblist(n,prime):
+def fiblist(n):
     lst = []
     for i in range(n-1):
-        curr = fib(i, prime)
-        if not curr:
-            continue
+        curr = fib(i)
         lst.append(curr)
     return lst
 
-#This function prints and infinite sequence of the fib sequence unless x is pressed
-def inflist(prime):
-    counter = 1
-    while True:
-        print(str(counter) + "me")
-        x = fib(counter,prime)
-        print(str(counter) + "se")
-        if not x:
-            continue
-        print(str(x) + "gugugaga")
-        counter += 1
-
-# can check if a number is prime
-def isprime(n):
-    for i in range(2, (n//2)+1):
-        if n%i == 0:
-            return False
-    return True
-
-# Allows users to select if they want prime numbers or not
-def primestateselect():
-    while True:
-        y = input("Would you like only prime numbers: y or n: ")
-
-        if y == "y":
-            return True
-        elif y == "n":
-            return False
-
-# Sets up an option for users to select the parameters they want
-print("you will now need to select parameters")
-
-# runs primestateselect() that allows users to select if they want prime numbers or not
-y = primestateselect()
-
-# Main Loop
 while True:
-    x = input("Would you like a list, an infinite number or just one number: enter lst, inf, num, or x to quit: ")
-    if x == "num" or x == "lst":
-        n = input("Enter the Nth number in the fib sequence you would like to calculate to or up to: ")
-
+    x = input("Would you like a list or just one number: enter lst, num, or x to quit: ")
+    n = input("Enter the Nth number in the fib sequence you would like to calculate to or up to: ")
     if x == "lst":
-        print(str(fiblist(int(n),y)))
+        print(fiblist(int(n)))
     elif x == "num":
-        print(str(fib(int(n),y)))
-    elif x == "inf":
-        inflist(y)
+        print(fib(int(x)))
     elif x == "quit":
         break
-

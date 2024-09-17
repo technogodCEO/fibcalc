@@ -4,10 +4,26 @@ This application is a basic tool to calculate the Nth number in the Fibonacci se
 
 # Changelog:
 
-# note:
-there are so many bugs and I don't know what is going on so I am going to end this project, and maybe create a new one that does the same thing but with better convensions so we don't have this problem again. I have turned this into a legacy project :(
+
+## Roll back to v0.2
+
+Since this version of the software is operational, I have decided to roll back to this version for the time being. This project has been removed from legacy status and will now continue to receive updates. 
+
+Just a as a reminder, this version of the software is capable of:
+
+1. Printing out the fibonacci sequence as a list up to a selected number.
+2. Printing out a selected number in the fibonacci sequence.
+
+I will attempt to comment out this code and update it in smaller bits in order to prevent further meltdowns.
+
+I will breathe new life into this project and am sorry for any annoyance it's failure may have caused.
+
+### note:
+there are so many bugs and I don't know what is going on, so I am going to end this project, and maybe create a new one that does the same thing but with better conventions so we don't have this problem again. I have turned this into a legacy project :(
 
 If you have any ideas on how to fix this code please let me know
+
+This note however is just for the time being and I may change my mind in the future
 
 ### v0.3.2 
 

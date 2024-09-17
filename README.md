@@ -4,9 +4,20 @@ This application is a basic tool to calculate the Nth number in the Fibonacci se
 
 # Changelog:
 
+### v0.3 Beta 1
+
+HUGE UPDATE
+
+1. Commented code for easier reading and understanding.
+2. Added ability for users to select if they only want prime numbers printed.
+3. Added option to print the Fibonacci sequence infinitely. 
+4. Fixed spelling errors in README
+
+Betas are fully functional, but keep in mind there will likely be bugs, if you find any, please report them on the GitHub.
+
 ### v0.3 Alpha 1
 
-1. Added prime checking fucntion (not usable yet in early testing phase)
+1. Added prime checking function (not usable yet in early testing phase)
 
 #### v0.2.4
 

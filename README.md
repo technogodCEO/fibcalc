@@ -4,6 +4,13 @@ This application is a basic tool to calculate the Nth number in the Fibonacci se
 
 # Changelog:
 
+### v0.3.2 
+
+1. Fixed error with imputing into functions with converting boolean to integer by reordering code
+2. Fixed error that didn't allow fib to be returned
+3. Fixed error that prevented recursion from working
+4. Fixed error with logic in number selection
+
 #### v0.3.1.1
 
 1. Got rid of a strange import.

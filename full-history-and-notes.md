@@ -1,10 +1,14 @@
-# Description:
-
-This application is a basic tool to calculate the Nth number in the Fibonacci sequence, or print a list of the sequence.
-
 # Changelog:
 
-### 
+## September 18th, 2024
+
+### v0.2.1
+
+1. split version history into two documents
+   1. README
+   2. Full-history-and-notes
+
+## September 17th, 2024:
 
 ## Roll back to v0.2
 
@@ -48,6 +52,8 @@ This note however is just for the time being and I may change my mind in the fut
 
 There were no bugs I could detect, so I am pushing to release. If you find any, please report them.
 
+## September 16th 
+
 ### v0.3 Beta 1
 
 HUGE UPDATE
@@ -83,6 +89,8 @@ Betas are fully functional, but keep in mind there will likely be bugs, if you f
 
 1. Refactored version names. 
 
+## September 15th, 2024:
+
 ### v0.2.2
 
 1. Important big fix with list function.
@@ -104,6 +112,8 @@ Betas are fully functional, but keep in mind there will likely be bugs, if you f
 ## v0.1
 
 1. Added process to a loop for repeated use
+
+## September 14th, 2024:
 
 ## v0.0
 

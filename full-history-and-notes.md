@@ -1,5 +1,13 @@
 # Changelog:
 
+
+
+## September 23rd, 2024
+
+## v0.3
+
+1. added possibility for an infinite printout of fibonacci sequence numbers
+
 ## September 18th, 2024
 
 ### v0.2.1

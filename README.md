@@ -4,6 +4,10 @@ This application is a basic tool to calculate the Nth number in the Fibonacci se
 
 # Changelog:
 
+### v0.3.2
+
+1. Added ability to use keyboard to quit inflist.
+
 ### v0.3.1
 
 1. Moved the fib functions into a different document for more clarity

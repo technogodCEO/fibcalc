@@ -1,3 +1,4 @@
+import keyboard
 
 def fib(number):
     if number == 1:
@@ -20,4 +21,6 @@ def inflist():
         currFibVal = fib(counter)
         counter += 1
         print(currFibVal)
+        if keyboard.is_pressed("q"):
+            break
 

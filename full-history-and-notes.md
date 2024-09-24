@@ -1,6 +1,12 @@
 # Changelog:
 
 
+## September 23rd, 2024
+
+### v0.3.1
+
+1. Moved the fib functions into a different document for more clarity
+
 
 ## September 23rd, 2024
 

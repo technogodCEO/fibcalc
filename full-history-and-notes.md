@@ -1,6 +1,12 @@
 # Changelog:
 
 
+## October 16th, 2024
+
+### v0.3.2
+
+1. added error handling for entering fib sequence number
+
 ## September 23rd, 2024
 
 ### v0.3.1

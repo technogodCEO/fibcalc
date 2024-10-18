@@ -4,6 +4,11 @@ This application is a basic tool to calculate the Nth number in the Fibonacci se
 
 # Changelog:
 
+## v0.4
+
+1. added memory functionality taking this program from O(approx 2^n) complexity to 0(n)
+2. added more error handling functionality so the software doesn't, you know, break. 
+
 ### v0.3.2
 
 1. added error handling for entering fib sequence number

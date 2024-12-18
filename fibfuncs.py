@@ -9,8 +9,10 @@ def fiblist(number, mem):
     return mem
 
 def inflist(mem):
-    counter = 0
+    counter = 2
+    print("0")
+    print("1")
     while True:
         mem.append(mem[-1] + mem[-2])
         counter += 1
-        print(mem[counter])
+        print("#" + str(counter) +" ", mem[counter-1])

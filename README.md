@@ -4,6 +4,10 @@ This application is a basic tool to calculate the Nth number in the Fibonacci se
 
 # Changelog:
 
+### v0.4.1 
+
+1. added numbering system in inf list where it says its the Nth number, then prints that number 
+
 ## v0.4
 
 1. added memory functionality taking this program from O(approx 2^n) complexity to 0(n)

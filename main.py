@@ -1,6 +1,7 @@
 import sys
 import fibfuncs as fib
 
+# noinspection SpellCheckingInspection
 fibmem = [0,1]
 sys.set_int_max_str_digits(1000000000)
 
@@ -38,6 +39,5 @@ while True:
     Thank You
     """)
 
-
+    # noinspection SpellCheckingInspection
     fibmem = [0,1]
-

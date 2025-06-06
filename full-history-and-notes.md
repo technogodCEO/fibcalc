@@ -4,14 +4,14 @@
 
 ## v0.4
 
-1. added memory functionality taking this program from O(approx 2^n) complexity to 0(n)
-2. added more error handling functionality so the software doesn't, you know, break. 
+1. Added memory functionality taking this program from O(approx 2^n) complexity to 0(n)
+2. Added more error handling functionality so the software doesn't, you know, break. 
 
 ## October 16th, 2024
 
 ### v0.3.2
 
-1. added error handling for entering fib sequence number
+1. Added error handling for entering fib sequence number
 
 ## September 23rd, 2024
 
@@ -24,13 +24,13 @@
 
 ## v0.3
 
-1. added possibility for an infinite printout of fibonacci sequence numbers
+1. Added the possibility for an infinite printout of Fibonacci sequence numbers
 
 ## September 18th, 2024
 
 ### v0.2.1
 
-1. split version history into two documents
+1. Split the version history into two documents
    1. README
    2. Full-history-and-notes
 
@@ -42,23 +42,23 @@ Since this version of the software is operational, I have decided to roll back t
 
 Just as a reminder, this version of the software is capable of:
 
-1. Printing out the fibonacci sequence as a list up to a selected number.
-2. Printing out a selected number in the fibonacci sequence.
+1. Printing out the Fibonacci sequence as a list up to a selected number.
+2. Printing out a selected number in the Fibonacci sequence.
 
-I will attempt to comment out this code and update it in smaller bits in order to prevent further meltdowns.
+I will attempt to comment out this code and update it in smaller increments to prevent further meltdowns.
 
 I will breathe new life into this project and am sorry for any annoyance it's failure may have caused.
 
 ### note:
-there are so many bugs and I don't know what is going on, so I am going to end this project, and maybe create a new one that does the same thing but with better conventions so we don't have this problem again. I have turned this into a legacy project :(
+The bugs in the software have become unmanageable, so I am going to end this project and maybe create a new one that does the same thing but with better conventions, so we don't have this problem again. I have turned this into a legacy project :(
 
-If you have any ideas on how to fix this code please let me know
+If you have any ideas on how to fix this code, please let me know
 
-This note however is just for the time being and I may change my mind in the future
+This note, however, is just for the time being, and I may change my mind in the future
 
 ### v0.3.2 
 
-1. Fixed error with imputing into functions with converting boolean to integer by reordering code
+1. Fixed error with inputting into functions by converting boolean to integer by reordering code
 2. Fixed error that didn't allow fib to be returned
 3. Fixed error that prevented recursion from working
 4. Fixed error with logic in number selection
@@ -71,8 +71,8 @@ This note however is just for the time being and I may change my mind in the fut
 ### v0.3.1
 
 1. Formatting changes in README.
-2. A bug fix in which lst function will only print out primes.
-3. A bux fix in which infinite list function will not print.
+2. A bug fix in which the lst function will only print out primes.
+3. A bug fix in which the infinite list function will not print.
 
 ## v0.3
 
@@ -85,11 +85,11 @@ There were no bugs I could detect, so I am pushing to release. If you find any, 
 HUGE UPDATE
 
 1. Commented code for easier reading and understanding.
-2. Added ability for users to select if they only want prime numbers printed.
+2. Added the ability for users to select if they only want prime numbers printed.
 3. Added option to print the Fibonacci sequence infinitely. 
 4. Fixed spelling errors in README
 
-Betas are fully functional, but keep in mind there will likely be bugs, if you find any, please report them on the GitHub.
+Betas are fully functional, but keep in mind there will likely be bugs. If you find any, please report them on GitHub. (Issues tab)
 
 ### v0.3 Alpha 1
 
@@ -97,15 +97,15 @@ Betas are fully functional, but keep in mind there will likely be bugs, if you f
 
 ### v0.2.4
 
-1. Fixed error in code where entering a number would result in ValueError.
+1. Fixed error in code where entering a number would result in a ValueError.
 
 #### v0.2.3.3
 
-1. Fixed another formating error in README. 
+1. Fixed another formatting error in README. 
 
 #### v0.2.3.2
 
-1. There was another error, I fixed it 
+1. There was another error; I fixed it. 
 
 #### v0.2.3.1 
 
@@ -119,7 +119,7 @@ Betas are fully functional, but keep in mind there will likely be bugs, if you f
 
 ### v0.2.2
 
-1. Important big fix with list function.
+1. Important big fix with the list function.
 2. grammatical and spelling fixes in README.
 
 #### v0.2.1
@@ -128,7 +128,7 @@ Betas are fully functional, but keep in mind there will likely be bugs, if you f
 
 ## v0.2
 
-1. Added functionality to print out a list of all the numbers in the fibonacci sequence up to a number.
+1. Added functionality to print out a list of all the numbers in the Fibonacci sequence up to a number.
 2. Refactored grammar and structure in README.
 
 #### v0.1.1 
